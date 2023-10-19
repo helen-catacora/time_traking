@@ -1,0 +1,30 @@
+export const weekly =[
+    {   
+        area:"Work",
+        horas:"32",
+        lastWeek:"36",
+        imgUrl:"/icon-work.svg",
+        theme:"orange"
+    },
+    {   
+        area:"Play",
+        horas:"10",
+        lastWeek:"8",
+        imgUrl:"/icon-play.svg",
+        theme:"sky"
+    },
+    {   
+        area:"Study",
+        horas:"4",
+        lastWeek:"  7",
+        imgUrl:"/icon-study.svg",
+        theme:"pink"
+    },
+    {   
+        area:"Exercise",
+        horas:"4",
+        lastWeek:"7",
+        imgUrl:"/icon-exercise.svg",
+        theme:"green"
+    }
+]

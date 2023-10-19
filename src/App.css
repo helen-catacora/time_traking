@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+.tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 10px;
+  border-radius: 20px;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+}
+
+.photo{
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.lol{
+  position: absolute;
+  
+}
+
+.activities{
+  border-radius: 20px;
+  background-color: var(--Darkblue);
+  margin: 60px 0 0 0;
+  position: relative;
+}
+
+.orange{
+  background-color: var(--Lightred-work);
+}
+
+.sky{
+  background-color: var(--Soft-blue-play);
+}
+
+.pink{
+  background-color: var(--Light-red-study);
+}
+
+.green{
+  background-color: var(--Lime-green-exercise);
+}
